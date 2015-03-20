@@ -5,6 +5,16 @@
     <title>Document</title>
 </head>
 <body>
+
     <input type="text" onfocus="event.preventDefault();"/>
+    <input type="text" onfocus="return false;"/>
+    <input type="text" id="input"/>
+
+    <script>
+        var input = document.getElementById('input');
+        input.addEventListener('focus', function(e) {
+            e.preventDefault();
+        })
+    </script>
 </body>
 </html>
