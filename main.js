@@ -42,8 +42,8 @@ var errorCallback = function(e) {
 var constraints = {
     video: {
         mandatory: {
-            minWidth: 400,
-            minHeight: 600
+            minWidth: 1920,
+            minHeight: 1080
         }
     }
 };
