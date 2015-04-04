@@ -1,94 +1,66 @@
 'use strict';
 
-/* EX: 2 */
-function sayHI() {
-    worker.postMessage({'cmd': 'start', 'msg': 'Hi'});
-}
+let cameraPlayer = document.querySelector('#camera-player video');
+let cameraSelect = document.querySelector('#camera-source');
+let resHeight = document.querySelector('#res-height');
+let resWidth = document.querySelector('#res-width');
+let startBtn = document.querySelector('#start');
 
-function stop() {
-    worker.postMessage({'cmd': 'stop', 'msg': 'Bye'});
-}
-
-function unkownCmd() {
-    worker.postMessage({'cmd': 'foobard', msg: '???'});
-}
-
-var worker = new Worker('doWork2.js');
-
-worker.addEventListener('message', function(e) {
-    document.getElementById('result').textContent = e.data;
-}, false);
-
-
-/* EX: 1 */
-//var worker = new Worker('task.js');
-//
-//worker.addEventListener('message', function(e) {
-//    console.log('Worker said: ', e.data);
-//}, false);
-//
-//worker.postMessage('Hello World');
-
-
-//worker.postMessage();
-
-
-navigator.getUserMedia = navigator.webkitGetUserMedia;
+navigator.getUserMedia =  navigator.webkitGetUserMedia;
 
 var errorCallback = function(e) {
     console.log('Rejected!', e);
 };
 
-var constraints = {
-    video: {
-        mandatory: {
-            minWidth: 1260,
-            minHeight: 720
-        }
-    }
-};
 
-navigator.getUserMedia(constraints, function(localMediaStream) {
-    var video = document.querySelector('video');
-    video.src = window.URL.createObjectURL(localMediaStream);
-
-    video.onloadedmetadata = function(e) {
-
-    };
-
-}, errorCallback);
-
+// getting the sources, and adding to the camera selection list
 MediaStreamTrack.getSources(function(sourceInfos) {
-    var audioSource = null;
-    var videoSource = null;
-
-    for (var i = 0; i != sourceInfos.length; ++i) {
+    var cameraCount = 1;
+    for (var i = 0; i < sourceInfos.length; i++) {
         var sourceInfo = sourceInfos[i];
-        if (sourceInfo.kind === 'audio') {
-            console.log(sourceInfo.id, sourceInfo.label || 'microphone');
-
-            audioSource = sourceInfo.id;
-        } else if (sourceInfo.kind === 'video') {
-            console.log(sourceInfo.id, sourceInfo.label || 'camera');
-
-            videoSource = sourceInfo.id;
-        } else {
-            console.log('Some other kind of source: ', sourceInfo);
+        console.log(sourceInfo.kind);
+        if (sourceInfo.kind == 'video') {
+            var option = document.createElement('option');
+            option.value = sourceInfo.id;
+            option.text = sourceInfo.label || `Camera ${cameraCount++}`;
+            cameraSelect.appendChild(option);
         }
-    }
 
-    sourceSelected(audioSource, videoSource);
+    }
 });
 
-function sourceSelected(audioSource, videoSource) {
+var connectCamera = function() {
+
+    var selectedCam = cameraSelect.value;
+    var height = resHeight.value;
+    var width = resWidth.value;
+
+    if (!!cameraPlayer.stream) {
+        cameraPlayer.pause();
+        cameraPlayer.stream.stop();
+    }
+
+
     var constraints = {
-        audio: {
-            optional: [{sourceId: audioSource}]
-        },
         video: {
-            optional: [{sourceId: videoSource}]
+            mandatory: {
+                minWidth: width,
+                minHeight: height
+            },
+
+            optional: [{
+                sourceId: selectedCam
+            }]
         }
     };
 
-    navigator.getUserMedia(constraints, successCallback, errorCallback);
-}
+    navigator.getUserMedia(constraints, function(stream) {
+
+        cameraPlayer.stream = stream;
+        cameraPlayer.src = window.URL.createObjectURL(stream);
+    }, errorCallback);
+
+};
+
+
+start.addEventListener('click', connectCamera);
