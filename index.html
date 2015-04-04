@@ -5,8 +5,25 @@
     <title></title>
 </head>
 <body>
-    <video autoplay></video>
-    <script src="main.js"></script>
+<div>
+    <label for="camera-source">Select a camera:</label>
+    <select id="camera-source">
 
+    </select>
+</div>
+<div>
+    <label for="res-height">height: </label>
+    <input type="number" id="res-height" value="1080"/>
+    <label for="res-width">width:</label>
+    <input type="number" id="res-width" value="1920"/>
+</div>
+<div>
+    <button id="start">Start</button>
+</div>
+<div id="camera-player">
+    <video autoplay></video>
+</div>
+
+<script src="main.js"></script>
 </body>
 </html>
