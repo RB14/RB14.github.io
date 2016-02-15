@@ -19,7 +19,7 @@ self.addEventListener('fetch', e => {
         }
     }) ;
 
-    let resp = new Response("dfdfdf", {
+    let resp = new Response(stream, {
         headers: {'Content-Type': 'text/plain'}
     })
 
