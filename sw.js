@@ -1,3 +1,11 @@
+self.addEventListener('install', event => {
+  self.skipWaiting();
+});
+
+self.addEventListener('activate', event => {
+  clients.claim();
+});
+
 self.addEventListener('fetch', e => {
 
     let url = e.request.url;
@@ -21,7 +29,7 @@ self.addEventListener('fetch', e => {
 
     let resp = new Response(stream, {
         headers: {'Content-Type': 'text/plain'}
-    })
+    });
 
     e.respondWith(Promise.resolve(resp));
     return;
