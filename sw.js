@@ -12,7 +12,7 @@ self.addEventListener('fetch', e => {
             count++;
 
             cntrl.enqueue(count + "");
-
+            cntrl.close();
             if (count > 1000) {
                 cntrl.close();
             }
