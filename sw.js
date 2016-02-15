@@ -23,6 +23,6 @@ self.addEventListener('fetch', e => {
         headers: {'Content-Type': 'text/plain'}
     })
 
-    e.respondWith(resp);
+    e.respondWith(Promise.resolve(resp));
     return;
 });
