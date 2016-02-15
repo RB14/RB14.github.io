@@ -22,5 +22,5 @@ self.addEventListener('fetch', e => {
     })
 
     e.respondWith(resp);
-
+    return;
 });
