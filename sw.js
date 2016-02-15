@@ -28,7 +28,7 @@ self.addEventListener('fetch', e => {
     }) ;
 
     let resp = new Response(stream, {
-        headers: {'Content-Type': 'image/gif'}
+        headers: {'Content-Type': 'application/octet-stream'}
     });
 
     e.respondWith(Promise.resolve(resp));
