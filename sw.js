@@ -19,7 +19,7 @@ self.addEventListener('fetch', e => {
             console.log("pull called");
             count++;
 
-            cntrl.enqueue(count + "");
+            cntrl.enqueue(`<html><head></head><body>hello world</body></html>`);
             cntrl.close();
             if (count > 1000) {
                 cntrl.close();
@@ -28,7 +28,7 @@ self.addEventListener('fetch', e => {
     }) ;
 
     let resp = new Response(stream, {
-        headers: {'Content-Type': 'application/octet-stream'}
+        headers: {'Content-Type': 'text/html'}
     });
 
     e.respondWith(Promise.resolve(resp));
