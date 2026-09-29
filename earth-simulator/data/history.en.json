@@ -1,0 +1,257 @@
+{
+  "formation": {
+    "title": "The Earth forms",
+    "summary": "Dust and rock around the young Sun gather into a planet",
+    "info": "About 4.54 billion years ago — dated by the oldest meteorites and by lead isotopes — countless rocky bodies orbiting the newborn Sun collided and stuck together into the Earth. Their collisions released so much heat that the whole surface was a glowing ocean of magma, under a thick steam-and-CO₂ atmosphere. Iron sank to form the core; the lighter rock floated up to make the mantle and the first crust."
+  },
+  "moon": {
+    "title": "The Moon is born",
+    "summary": "A Mars-sized world strikes the Earth; the debris becomes the Moon",
+    "info": "The leading explanation for the Moon is a giant impact: a body the size of Mars, often called Theia, struck the young Earth a glancing blow some 4.5 billion years ago. Molten debris thrown into orbit gathered within years into the Moon — then perhaps 15 times closer than today, looming huge in the sky. The impact also set the Earth spinning fast: a day may have lasted only 5 or 6 hours. Tides have been slowing the Earth and pushing the Moon away ever since."
+  },
+  "oceans": {
+    "title": "The first oceans",
+    "summary": "Tiny crystals from Western Australia show liquid water already 4.4 billion years ago",
+    "info": "Zircon crystals from the Jack Hills of Western Australia — the oldest pieces of the Earth known — formed about 4.4 billion years ago in rock that had been in contact with liquid water. So within about 150 million years of its birth, the Earth had cooled enough for its steam atmosphere to rain out into oceans. Little is known of this world: almost none of its crust survives."
+  },
+  "bombardment": {
+    "title": "A storm of impacts?",
+    "summary": "The Moon's scarred face suggests a late wave of giant impacts",
+    "info": "Many of the Moon's great basins date to around 3.9 billion years ago, which led to the idea of a Late Heavy Bombardment: a surge of asteroids and comets, perhaps stirred up as the giant planets shifted their orbits, pounding the Earth and the Moon alike. Whether it was a sharp spike or just the tail of a long decline is still debated — the Earth, constantly recycling its surface, kept no record of it."
+  },
+  "firstLife": {
+    "title": "The oldest signs of life",
+    "summary": "Layered mats built by microbes, preserved in 3.5-billion-year-old rock",
+    "info": "In the Pilbara of Western Australia, rocks about 3.48 billion years old hold stromatolites: layered mounds built up by mats of microbes in shallow water. Chemical traces hint that life may be even older — perhaps 3.7 billion years or more. For the next three billion years, all life was microscopic, and it lived in water."
+  },
+  "vaalbara": {
+    "title": "Vaalbara, the first supercontinent?",
+    "summary": "South Africa and Western Australia may once have been one land",
+    "info": "The ancient cores of southern Africa (the Kaapvaal craton) and Western Australia (the Pilbara) hold strikingly similar rock sequences from 3.6 to 2.7 billion years ago, so some geologists think they were joined in a single landmass — Vaalbara, possibly the first 'supercontinent', though it was small by later standards. The positions of continents this old are guesses: the simulator shows them as such."
+  },
+  "kenorland": {
+    "title": "Kenorland",
+    "summary": "An early supercontinent may have gathered the first large cratons",
+    "info": "Around 2.7 billion years ago, a burst of crust-building may have assembled many of the oldest cratons — including the core of North America — into a supercontinent called Kenorland. Its break-up, around 2.5–2.1 billion years ago, may have helped trigger both the rise of oxygen and the Huronian ice age. It remains a hypothesis; the simulator's continents before 1.8 billion years ago are illustrative."
+  },
+  "oxygen": {
+    "title": "The Great Oxidation",
+    "summary": "Microbes fill the air with oxygen — and the sky's orange haze clears",
+    "info": "Cyanobacteria had been making oxygen by photosynthesis for a long time, but it was all used up by iron and volcanic gases. About 2.4 billion years ago the balance tipped and oxygen began to build up in the air. It was a catastrophe for much of the existing life, which oxygen poisons — and it destroyed the methane that had kept the young Earth warm, helping plunge it into a long ice age. Before it, the sky may have been a hazy orange."
+  },
+  "huronian": {
+    "title": "The Huronian ice age",
+    "summary": "The first known great glaciation, possibly a Snowball Earth",
+    "info": "Rocks around Lake Huron record glaciers from about 2.45 to 2.22 billion years ago — the oldest long ice age we know of. With the greenhouse gas methane destroyed by the new oxygen, ice may at times have reached the equator. It lasted some 200 million years."
+  },
+  "vredefort": {
+    "title": "The Vredefort impact",
+    "summary": "The largest verified impact crater on Earth",
+    "info": "About 2.02 billion years ago an asteroid perhaps 20–25 km across struck what is now South Africa, blasting a crater some 250–300 km wide. Two billion years of erosion have worn it down to its roots, but the Vredefort Dome near Johannesburg still marks its centre — the largest and one of the oldest impact structures known on Earth."
+  },
+  "nuna": {
+    "title": "Nuna (Columbia)",
+    "summary": "A supercontinent built by mountain ranges welding the cratons together",
+    "info": "Between about 2.1 and 1.8 billion years ago, colliding continents raised mountain belts that stitched most of the known cratons into one supercontinent: Nuna, also called Columbia. At its heart lay the core of North America (Laurentia) with Baltica and Siberia. It slowly broke apart from about 1.5 billion years ago. From here on, the simulator follows a published plate reconstruction."
+  },
+  "complexCells": {
+    "title": "The first complex cells",
+    "summary": "Cells with a nucleus appear — the ancestors of all plants and animals",
+    "info": "Eukaryotic cells — with a nucleus and mitochondria, which descend from swallowed bacteria — appear in the fossil record around 1.65 billion years ago, possibly earlier. All the large life that would come — seaweeds, fungi, plants, animals, us — is built of them. For a billion years more they stayed small and mostly single-celled."
+  },
+  "rodinia": {
+    "title": "Rodinia",
+    "summary": "A supercontinent surrounded by a single world ocean",
+    "info": "By about a billion years ago most of the continents had come together again, in Rodinia, ringed by the vast ocean Mirovia. The mountain-building that assembled it — the Grenville orogeny — can still be traced across eastern North America. Rodinia began to break apart about 750 million years ago, as the Earth slid into its deepest freezes."
+  },
+  "snowball": {
+    "title": "Snowball Earth",
+    "summary": "Ice from pole to pole — the whole planet frozen over",
+    "info": "Twice between about 717 and 635 million years ago — the Sturtian and Marinoan glaciations — ice seems to have covered the oceans almost to the equator. Glacial deposits formed at tropical latitudes. The planet escaped only as volcanoes slowly built up enough carbon dioxide to melt it, in a sudden, violent thaw. Soon after, the first large animals appeared."
+  },
+  "ediacaran": {
+    "title": "The first large animals",
+    "summary": "Strange soft-bodied creatures, unlike anything alive today",
+    "info": "In rocks from about 575 to 539 million years ago — first found in the Ediacara Hills of South Australia — lie the imprints of the first large, complex organisms: fronds, discs and quilted mats up to a metre long. Many belong to no living group. Life was still entirely in the sea; the land was bare rock."
+  },
+  "cambrian": {
+    "title": "The Cambrian explosion",
+    "summary": "In a few tens of millions of years, most animal groups appear",
+    "info": "From about 539 million years ago, animals with shells, eyes, legs and jaws appear in a geological instant. Fossil beds such as Chengjiang in China (518 million years old) and the Burgess Shale in Canada preserve even their soft parts: the first arthropods, the earliest relatives of vertebrates, and the fearsome Anomalocaris. Almost every major animal body plan alive today dates from this time."
+  },
+  "landPlants": {
+    "title": "Plants reach the land",
+    "summary": "The first green on the continents: tiny moss-like plants",
+    "info": "Spores in rocks about 470 million years old show that small, moss-like plants had begun to colonise damp ground near the water. Until then the continents were bare rock and mineral soil — shades of brown, red and grey. It took another 100 million years for true forests to cover the land."
+  },
+  "endOrdovician": {
+    "title": "The end-Ordovician extinction",
+    "summary": "The first of the Big Five mass extinctions — the Sahara lay at the South Pole",
+    "info": "About 445–443 million years ago, the great southern continent Gondwana drifted over the South Pole and an ice sheet spread across it — over what is now the Sahara. Sea levels fell, the oceans cooled, and about 85% of marine species died out in two pulses. It is the second-deadliest mass extinction in Earth's history."
+  },
+  "firstForests": {
+    "title": "The first forests",
+    "summary": "Trees appear and change the air, the soil and the climate",
+    "info": "The oldest known fossil forest, at Gilboa in New York, grew about 385 million years ago: tree-like plants some 8 metres tall. As forests spread through the Devonian, their roots made the first deep soils, and they pulled carbon dioxide out of the air, cooling the climate. Fish were taking their first steps onto land at the same time."
+  },
+  "lateDevonian": {
+    "title": "The Late Devonian extinction",
+    "summary": "A series of crises wipes out the great reefs",
+    "info": "About 372 million years ago, and again near 359 million years ago, waves of extinction swept the seas, killing about three-quarters of species — including most of the vast reef systems and many armoured fishes. Low oxygen in the oceans, perhaps tied to the spread of land plants washing nutrients into the sea, is a leading suspect."
+  },
+  "coalForests": {
+    "title": "Coal forests and giant insects",
+    "summary": "Swamp forests of giant club-mosses; dragonflies with 70 cm wings",
+    "info": "In the Carboniferous, vast tropical swamp forests of tree-sized club-mosses and ferns covered the low lands; their buried remains became much of the world's coal. Oxygen rose to perhaps 30% of the air, and insects grew to record sizes — like the griffinfly Meganeura, found at Commentry in France, with wings 70 cm across. Meanwhile an ice age gripped the southern continents."
+  },
+  "pangaea": {
+    "title": "Pangaea",
+    "summary": "All the continents joined in one supercontinent",
+    "info": "By about 300 million years ago the continents had merged into Pangaea, stretching from pole to pole and wrapped by the world ocean Panthalassa. Its interior, far from any sea, was a vast desert. Pangaea is the supercontinent Alfred Wegener reconstructed in 1912 when he proposed continental drift — from the way the coasts fit, and the same fossils on continents now oceans apart."
+  },
+  "greatDying": {
+    "title": "The Great Dying",
+    "summary": "The worst mass extinction ever: about 90% of species are lost",
+    "info": "At the end of the Permian, 251.9 million years ago, enormous volcanic eruptions in Siberia — the Siberian Traps — poured out lava and gases for hundreds of thousands of years. The world heated sharply, the oceans turned acidic and lost their oxygen, and around 80–90% of marine species and most land animals vanished. Life took millions of years to recover — and the dinosaurs rose from the survivors."
+  },
+  "firstDinosaurs": {
+    "title": "The first dinosaurs",
+    "summary": "Small, fast two-legged hunters in the Triassic",
+    "info": "Some of the earliest known dinosaurs, like Eoraptor and Herrerasaurus, lived about 231 million years ago in what is now Ischigualasto in Argentina — then part of Pangaea. They were modest-sized, two-legged animals among many other reptiles. The first mammals, small and shrew-like, appeared around the same time."
+  },
+  "endTriassic": {
+    "title": "The end-Triassic extinction",
+    "summary": "Pangaea starts to tear apart in huge eruptions — and the dinosaurs take over",
+    "info": "About 201.4 million years ago, as Pangaea began to split, the eruptions of the Central Atlantic Magmatic Province spread lava across what are now four continents — the Palisades cliffs along the Hudson River are part of it. About three-quarters of species died out, clearing the way for the dinosaurs to dominate the land for the next 135 million years."
+  },
+  "atlantic": {
+    "title": "The Atlantic opens",
+    "summary": "North America pulls away from Africa and a new ocean is born",
+    "info": "As Pangaea broke apart, a rift between North America and North Africa flooded to form the central Atlantic Ocean, about 180 million years ago. It is still widening today — by a few centimetres a year, about as fast as fingernails grow — along the Mid-Atlantic Ridge."
+  },
+  "jurassicGiants": {
+    "title": "The Jurassic giants",
+    "summary": "The largest animals ever to walk the Earth",
+    "info": "In the Late Jurassic, about 150 million years ago, the floodplains of western North America — preserved in the Morrison Formation — were home to Brachiosaurus, Diplodocus and Apatosaurus, long-necked plant-eaters up to 25–30 metres long, hunted by Allosaurus. The first birds, like Archaeopteryx, were flying in Europe at the same time."
+  },
+  "flowers": {
+    "title": "Flowering plants",
+    "summary": "Flowers appear — and soon dominate the world's plant life",
+    "info": "Some of the earliest known flowering plants, such as Archaefructus from the Yixian Formation of China, date to about 125 million years ago. Flowers and fruits, working with insect pollinators and animal seed-carriers, spread fast: by the end of the Cretaceous they were the dominant plants, as they are today."
+  },
+  "chicxulub": {
+    "title": "The asteroid that ended the dinosaurs",
+    "summary": "A 10-km asteroid strikes Mexico; three-quarters of species vanish",
+    "info": "66 million years ago an asteroid about 10 km across struck the Yucatán Peninsula at Chicxulub, blasting a crater 180 km wide. Fires, a global cloud of dust and soot that dimmed the Sun for years, and a collapse of food chains followed. About 75% of species — including all dinosaurs except birds — died out, and the age of mammals began."
+  },
+  "hothouse": {
+    "title": "The hothouse Earth",
+    "summary": "A sudden burst of carbon warms the planet by 5–8 °C",
+    "info": "About 56 million years ago, at the Paleocene–Eocene Thermal Maximum, a huge release of carbon warmed the Earth by some 5–8 °C within a few thousand years. There was no ice at either pole; palm trees and crocodiles lived near the Arctic. Studied closely as a natural analogue of today's warming, it took the Earth around 200,000 years to recover."
+  },
+  "himalaya": {
+    "title": "India hits Asia",
+    "summary": "A drifting continent crashes into Asia and raises the Himalayas",
+    "info": "After breaking from Gondwana, India raced north across the ocean at up to 15 cm a year — one of the fastest plate motions known — and began colliding with Asia about 50 million years ago. The collision is still going on: it raised the Himalayas and the Tibetan Plateau, and Mount Everest is still rising by a few millimetres a year."
+  },
+  "antarctica": {
+    "title": "Antarctica freezes",
+    "summary": "An ice sheet spreads across the South Pole",
+    "info": "About 34 million years ago, as Antarctica became isolated by the opening of ocean gateways and carbon dioxide fell, a permanent ice sheet spread across the continent — the start of the icehouse world we still live in. Before it, Antarctica had forests."
+  },
+  "messinian": {
+    "title": "The Mediterranean dries up",
+    "summary": "Cut off from the Atlantic, the sea evaporates into salt flats",
+    "info": "About 5.97 million years ago the connection between the Atlantic and the Mediterranean closed, and the sea largely evaporated, leaving a deep basin of salt kilometres thick — the Messinian salinity crisis. About 5.33 million years ago the Atlantic broke back in through the Strait of Gibraltar, perhaps in a colossal flood that refilled the sea in a few years."
+  },
+  "stoneTools": {
+    "title": "The first stone tools",
+    "summary": "The Stone Age begins",
+    "info": "At Lomekwi, by Lake Turkana in Kenya, archaeologists found stone flakes and cores shaped about 3.3 million years ago — before our own genus, Homo. The Stone Age that began then lasted until the first metalworking, a few thousand years ago: more than 99% of the human story."
+  },
+  "lucy": {
+    "title": "Lucy walks upright",
+    "summary": "Our ancestors stand up and walk on two legs",
+    "info": "Lucy, a skeleton of Australopithecus afarensis found at Hadar in Ethiopia, lived about 3.2 million years ago. She was small and still a good climber, but her hips, knees and spine show she walked upright on two legs — long before brains grew large."
+  },
+  "iceAges": {
+    "title": "The ice ages begin",
+    "summary": "Ice sheets start to come and go over the northern continents",
+    "info": "About 2.6 million years ago the Northern Hemisphere began to swing between cold glacial periods, with great ice sheets over North America and Europe, and warmer interglacials like today. The rhythm follows the slow cycles of the Earth's orbit and tilt (the Milankovitch cycles) — since about a million years ago, one cycle every ~100,000 years."
+  },
+  "sapiens": {
+    "title": "Homo sapiens appears",
+    "summary": "The oldest known fossils of our own species",
+    "info": "Fossils from Jebel Irhoud in Morocco, about 300,000 years old, are the oldest known of Homo sapiens. Our species evolved across Africa, living alongside other humans — Neanderthals in Europe, Denisovans in Asia — with whom we later met and even had children."
+  },
+  "toba": {
+    "title": "The Toba super-eruption",
+    "summary": "The largest volcanic eruption of the last two million years",
+    "info": "About 74,000 years ago the Toba volcano on Sumatra erupted some 2,800 km³ of material, leaving the 100-km-long caldera now filled by Lake Toba, and spreading ash across South Asia. Its effect on climate and on our ancestors is debated: some sites show people carried on through it."
+  },
+  "outOfAfrica": {
+    "title": "Out of Africa",
+    "summary": "Modern humans spread out across the world",
+    "info": "From about 70,000 to 50,000 years ago, groups of modern humans left Africa — perhaps across the narrow southern end of the Red Sea, when low sea levels made it easier to cross — and spread along the coasts of Asia, reaching Australia by at least 50,000 years ago."
+  },
+  "lgm": {
+    "title": "The Last Glacial Maximum",
+    "summary": "The peak of the last ice age: seas 120 metres lower",
+    "info": "About 21,000 years ago ice sheets up to 3–4 km thick covered Canada, the northern United States, Scandinavia and the British Isles. So much water was locked in ice that sea level was about 120 metres lower than today: Siberia joined Alaska across Beringia, Britain joined Europe, and Australia joined New Guinea."
+  },
+  "americas": {
+    "title": "People reach the Americas",
+    "summary": "Across the Bering land bridge into a new world",
+    "info": "People crossed from Siberia into the Americas across Beringia, the land bridge exposed by the low sea level of the ice age, or along its coast — at least 16,000 years ago, and footprints in New Mexico suggest perhaps even earlier. Within a few thousand years they had reached the tip of South America."
+  },
+  "farming": {
+    "title": "Farming begins",
+    "summary": "As the ice age ends, people start to farm — and to settle",
+    "info": "The ice age ended about 11,700 years ago, opening the warm, stable Holocene. Soon after, in the Fertile Crescent of the Middle East, people began to cultivate wheat and barley and to herd goats and sheep; farming arose independently in several other places. Villages, towns and eventually cities followed."
+  },
+  "greenSahara": {
+    "title": "The Green Sahara",
+    "summary": "The Sahara is grassland, lakes and wetlands",
+    "info": "Between about 11,000 and 5,000 years ago, a stronger African monsoon — driven by the Earth's orbit — turned the Sahara green: savanna, rivers and great lakes like Mega-Chad, home to hippos, crocodiles and people, whose rock art still shows them. Then the rains retreated south and the desert returned."
+  },
+  "doggerland": {
+    "title": "Doggerland drowns",
+    "summary": "The land between Britain and Europe disappears under the sea",
+    "info": "As the ice sheets melted, the sea rose. Doggerland — the low, fertile land joining Britain to Europe, home to hunter-gatherers — shrank to islands and was finally drowned around 8,200–7,000 years ago, perhaps hastened by a tsunami from the Storegga landslide off Norway. Fishermen still dredge up its bones and tools from the North Sea."
+  },
+  "medCloses": {
+    "title": "The Mediterranean closes",
+    "summary": "Africa pushes into Europe; a new mountain range rises",
+    "info": "Africa is moving north into Europe by about a centimetre a year. In roughly 50 million years the Mediterranean is expected to have closed, crumpled into a mountain range as high as the Himalayas stretching from Spain to the Middle East. Predictions this far ahead extrapolate today's plate motions and grow less certain with time."
+  },
+  "australiaAsia": {
+    "title": "Australia meets Asia",
+    "summary": "Australia keeps drifting north and collides with Southeast Asia",
+    "info": "Australia is one of the fastest-moving continents, travelling north at about 7 cm a year. In some tens of millions of years it is expected to collide with the islands of Southeast Asia, folding them into a new mountain belt."
+  },
+  "proxima": {
+    "title": "Pangaea Proxima",
+    "summary": "The continents gather again into a new supercontinent",
+    "info": "Supercontinents seem to form every 400–600 million years. In about 250 million years, in Christopher Scotese's Pangaea Proxima scenario, the Atlantic closes again and the Americas crash back into Africa and Eurasia, around a remnant inland sea. Other scenarios — Novopangaea, Amasia, Aurica — assemble it differently. The simulator shows one of them: it is a well-informed guess, not a forecast."
+  },
+  "plantsFade": {
+    "title": "The plants fade",
+    "summary": "The ever-brighter Sun leaves too little CO₂ for most plants",
+    "info": "The Sun grows about 1% brighter every 100 million years. As the Earth warms, faster weathering of rock draws carbon dioxide out of the air; in some 600 million years there may be too little left for most plants to photosynthesise. Forests would thin out, and with them the oxygen they make and the animals that depend on it."
+  },
+  "oceansGone": {
+    "title": "The oceans boil away",
+    "summary": "A runaway greenhouse dries the planet",
+    "info": "In roughly a billion years the Sun will be about 10% brighter than now — enough to push the Earth into a moist greenhouse: water vapour rises high into the atmosphere, where sunlight splits it and the hydrogen escapes to space. The oceans are lost, and the surface becomes a hot, dry desert. Microbial life may hang on for a while underground."
+  },
+  "redGiant": {
+    "title": "The Sun becomes a red giant",
+    "summary": "Its hydrogen used up, the Sun begins to swell",
+    "info": "In about 5 billion years the Sun will run out of hydrogen in its core and begin to swell into a red giant, growing hundreds of times larger and thousands of times brighter. Mercury and Venus will be swallowed. The Earth's surface, long dead, will glow as molten rock."
+  },
+  "engulfed": {
+    "title": "The end of the Earth",
+    "summary": "The red giant Sun engulfs the Earth",
+    "info": "At the red giant's largest, about 7.6 billion years from now, the Sun's outer layers are expected to reach the Earth's orbit. Slowed by drag in the Sun's thin outer atmosphere, the Earth would spiral inward and be destroyed (Schröder & Smith, 2008). Some models let it escape to a wider orbit as the Sun loses mass — either way, it is the end of the Earth as a world. The simulator's timeline ends here."
+  }
+}
